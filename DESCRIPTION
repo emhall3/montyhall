@@ -1,0 +1,15 @@
+Package: montyhall
+Title: Monty Hall Game
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Elizabeth", 
+	   family = "Barbee",
+	   role = c("aut", "cre"),
+	   email = "emhall3@asu.edu", 
+           comment = c(ORCID = "0009-0002-6273-6614"))
+Description: The montyhall package creates a playable version of the Monty Hall Problem. This problem is set up similar to a game show, in which a contestant has three door options to choose from. The doors contain three prize options: two goats or one car. This package randomizesthe goats and doors and selects a door number for the contestant. The packageallows the host of the game to eliminate one of the goat doors. The contestant can then choose whether they would like to stick with their initial choice or change doors. The package displays whether the contestant wins or loses the game depending on their strategy to stay with their initial door or switch doors. The montyhall package allows for easy testing of the Monty Hall Problem, using a for loop to test the average win or loss rate depending on the contestant's strategy.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
